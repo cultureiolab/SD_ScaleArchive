@@ -8,7 +8,7 @@ dataset = load_dataset("laion/laion2B-en-aesthetic", split="train", streaming=Tr
 word_pattern = re.compile(r"\bYOURWORDHERE\b", re.IGNORECASE) # replace YOURWORDHERE with the word you want to search for
 banned_keywords = ["logo", "sign", "label", "icon", "symbol", "badge", "emblem", "book", "cover", "mug", "shirt", "design"] #filter out images that contain these words
 
-# Filter captions that mention "nurse"
+# Filter captions that mention "your keyword"
 filtered = (
     item for item in dataset
     if (caption := (item.get("TEXT") or "").lower())
