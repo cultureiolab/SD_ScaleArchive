@@ -1,5 +1,5 @@
 # SD Archive Project
-This repository contains the tools used in Culture I/O's large-scale generative visual media archival project. 
+This repository contains the tools used in Culture I/O Lab's large-scale generative visual media archival project. 
 
 ## ComfyUI Workflow
 To properly initialize the workflow, ensure that ComfyUI Manager is installed, by cloning its repository to the custom_nodes folder of ComfyUI’s repository. Then, download WAS Node Suite, comfyui-yan, ComfyUI-Custom-Scripts, and ComfyUI-Logic. Once these steps are complete, uploading the workflow will populate all relevant nodes. 
